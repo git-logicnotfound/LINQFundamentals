@@ -1,0 +1,12 @@
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/bin/Debug/net6.0/LINQFundamentals.DataLayer.deps.json
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/bin/Debug/net6.0/LINQFundamentals.DataLayer.dll
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/bin/Debug/net6.0/ref/LINQFundamentals.DataLayer.dll
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/bin/Debug/net6.0/LINQFundamentals.DataLayer.pdb
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.csproj.AssemblyReference.cache
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.AssemblyInfoInputs.cache
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.AssemblyInfo.cs
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.csproj.CoreCompileInputs.cache
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.dll
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/ref/LINQFundamentals.DataLayer.dll
+/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/obj/Debug/net6.0/LINQFundamentals.DataLayer.pdb

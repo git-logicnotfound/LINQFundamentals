@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LINQFundamentals.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LINQFundamentals.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LINQFundamentals.Common.dll": {}
+        }
+      },
+      "LINQFundamentals.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LINQFundamentals.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LINQFundamentals.DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQFundamentals.Common/1.0.0": {
+      "type": "project",
+      "path": "../LINQFundamentals.Common/LINQFundamentals.Common.csproj",
+      "msbuildProject": "../LINQFundamentals.Common/LINQFundamentals.Common.csproj"
+    },
+    "LINQFundamentals.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../LINQFundamentals.DataLayer/LINQFundamentals.DataLayer.csproj",
+      "msbuildProject": "../LINQFundamentals.DataLayer/LINQFundamentals.DataLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LINQFundamentals.Common >= 1.0.0",
+      "LINQFundamentals.DataLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/raja/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals/LINQFundamentals.csproj",
+      "projectName": "LINQFundamentals",
+      "projectPath": "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals/LINQFundamentals.csproj",
+      "packagesPath": "/Users/raja/.nuget/packages/",
+      "outputPath": "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/raja/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.Common/LINQFundamentals.Common.csproj": {
+              "projectPath": "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.Common/LINQFundamentals.Common.csproj"
+            },
+            "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/LINQFundamentals.DataLayer.csproj": {
+              "projectPath": "/Users/raja/Documents/Projects/LINQFundamentals/LINQFundamentals.DataLayer/LINQFundamentals.DataLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
