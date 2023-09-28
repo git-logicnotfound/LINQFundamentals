@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LINQFundamentals.Common\LINQFundamentals.Common.csproj" />
-    <ProjectReference Include="..\LINQFundamentals.DataLayer\LINQFundamentals.DataLayer.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
