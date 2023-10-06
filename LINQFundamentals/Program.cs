@@ -5,4 +5,10 @@ Console.WriteLine("Hello, World!");
 
 LINQQueries linQQueries = new();
 
-linQQueries.Display(linQQueries.GetAllProducts());
+//linQQueries.Display(linQQueries.GetAllProducts());
+
+//linQQueries.Display(linQQueries.GetNameFromProducts());
+
+//linQQueries.Display(linQQueries.GetSpecificColumnNames());
+
+linQQueries.Display(linQQueries.GetColumnWithAnonymousClass());
