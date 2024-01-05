@@ -11,4 +11,6 @@ LINQQueries linQQueries = new();
 
 //linQQueries.Display(linQQueries.GetSpecificColumnNames());
 
-linQQueries.Display(linQQueries.GetColumnWithAnonymousClass());
+//linQQueries.Display(linQQueries.GetColumnWithAnonymousClass());
+
+linQQueries.Display(linQQueries.GetProductsInOrder());

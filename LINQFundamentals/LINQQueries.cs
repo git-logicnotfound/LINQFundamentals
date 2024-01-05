@@ -84,5 +84,15 @@ namespace LINQFundamentals
             return sb.ToString();
         }
 
+        public List<Product> GetProductsInOrder()
+        {
+            var products = GetProducts();
+
+            var sortedProducts = products.OrderBy(p => p.Color).ThenBy(p => p.Name).ToList();
+
+            return sortedProducts;
+        }
+
     }
+
 }
