@@ -13,4 +13,6 @@ LINQQueries linQQueries = new();
 
 //linQQueries.Display(linQQueries.GetColumnWithAnonymousClass());
 
-linQQueries.Display(linQQueries.GetProductsInOrder());
+//linQQueries.Display(linQQueries.GetProductsInOrder());
+
+linQQueries.Display(linQQueries.WhereExtensionByColor());

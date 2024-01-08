@@ -1,6 +1,7 @@
 using System.Text;
 using System.Threading.Tasks;
 using LInqFundamentals.Common;
+using LINQFundamentals.Common.HelperClasses;
 using LINQFundamentals.DataLayer.EntityClasses;
 
 namespace LINQFundamentals
@@ -91,6 +92,14 @@ namespace LINQFundamentals
             var sortedProducts = products.OrderBy(p => p.Color).ThenBy(p => p.Name).ToList();
 
             return sortedProducts;
+        }
+
+        public List<Product> WhereExtensionByColor()
+        {
+            var products = GetProducts();
+
+            var filteredByColor = products.ByColor("red").ToList();
+            return filteredByColor;
         }
 
     }
