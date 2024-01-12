@@ -22,7 +22,11 @@ SampleViewModel vm = new();
 try
 {
   //var result = vm.GetFirstOrDefaultProduct();
-  var result = vm.GetFirstQueryWithException();
+  //var result = vm.GetFirstQueryWithException();
+  
+   //var result = vm.TakeQuery();
+   var result = vm.SkipData();
+
   vm.Display(result);
 }
 catch(ArgumentNullException ex)
