@@ -33,4 +33,14 @@ public class InventoryBase
     {
         Console.WriteLine(data);
     }
+
+    public void Display(Product product)
+    {
+        Console.WriteLine(product);
+    }
+
+    public void Display(Exception ex)
+    {
+        Console.WriteLine(ex.ToString());
+    }
 }
