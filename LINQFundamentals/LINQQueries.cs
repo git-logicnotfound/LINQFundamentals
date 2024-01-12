@@ -98,7 +98,7 @@ namespace LINQFundamentals
         {
             var products = GetProducts();
 
-            var filteredByColor = products.ByColor("red").ToList();
+            var filteredByColor = products.ByColor("Red").ToList();
             return filteredByColor;
         }
 

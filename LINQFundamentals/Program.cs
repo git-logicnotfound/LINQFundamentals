@@ -3,7 +3,7 @@ using LINQFundamentals;
 
 Console.WriteLine("Hello, World!");
 
-LINQQueries linQQueries = new();
+//LINQQueries linQQueries = new();
 
 //linQQueries.Display(linQQueries.GetAllProducts());
 
@@ -15,4 +15,21 @@ LINQQueries linQQueries = new();
 
 //linQQueries.Display(linQQueries.GetProductsInOrder());
 
-linQQueries.Display(linQQueries.WhereExtensionByColor());
+//linQQueries.Display(linQQueries.WhereExtensionByColor());
+
+SampleViewModel vm = new();
+
+try
+{
+  //var result = vm.GetFirstOrDefaultProduct();
+  var result = vm.GetFirstQueryWithException();
+  vm.Display(result);
+}
+catch(ArgumentNullException ex)
+{
+ vm.Display(ex);
+}
+catch(InvalidOperationException ex)
+{
+   vm.Display(ex);
+}
